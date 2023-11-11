@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Meme Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .meme-container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="meme-container">
+        <img src="{{ meme_url }}" alt="{{ meme_title }}">
+        <h2>{{ meme_title }}</h2>
+        <p>Author: {{ meme_author }}</p>
+    </div>
+</body>
+</html>
