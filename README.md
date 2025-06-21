@@ -1,13 +1,7 @@
 JustAnotherSite
 =================
 
-This is a simple web application project, likely built using Flask (based on the presence of a `templates` folder and `main.py` file).
-
-## Features
-
-- Dynamic page rendering with HTML templates
-- Simple backend logic in Python (`main.py`)
-- Pages include `meme.html` and `number.html`
+This is a simple web application project built using Flask.
 
 ## Requirements
 
@@ -21,7 +15,3 @@ python main.py
 ```
 
 Then visit `http://127.0.0.1:5000/` in your browser.
-
-## License
-
-MIT or as specified in the original repository.
